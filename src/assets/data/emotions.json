@@ -1,0 +1,334 @@
+{
+  "emotions": [
+    {
+      "id": "joie",
+      "label": { "fr": "Joie", "en": "Joy", "de": "Freude" },
+      "color": "#FCD34D",
+      "subcategories": [
+        {
+          "id": "optimisme",
+          "label": { "fr": "Optimisme", "en": "Optimism", "de": "Optimismus" },
+          "children": [
+            { "id": "inspire", "label": { "fr": "Inspiré.e", "en": "Inspired", "de": "Inspiriert" }, "desc": { "fr": "Sentiment d'être motivé par une idée ou une vision.", "en": "Feeling motivated by an idea or vision.", "de": "Gefühl, durch eine Idee oder Vision motiviert zu sein." } },
+            { "id": "ouvert", "label": { "fr": "Ouvert.e", "en": "Open", "de": "Offen" }, "desc": { "fr": "Réceptif aux nouvelles expériences.", "en": "Receptive to new experiences.", "de": "Auf neue Erfahrungen offen." } }
+          ]
+        },
+        {
+          "id": "intime",
+          "label": { "fr": "Intime", "en": "Intimate", "de": "Intim" },
+          "children": [
+            { "id": "espiegle", "label": { "fr": "Espiègle", "en": "Playful", "de": "Verspielt" }, "desc": { "fr": "Esprit ludique et joyeux.", "en": "Playful and joyful spirit.", "de": "Verspielte und fröhliche Art." } },
+            { "id": "sensible", "label": { "fr": "Sensible", "en": "Sensitive", "de": "Empfindsam" }, "desc": { "fr": "Capacité à ressentir profondément.", "en": "Ability to feel deeply.", "de": "Fähigkeit, tief zu fühlen." } }
+          ]
+        },
+        {
+          "id": "paisible",
+          "label": { "fr": "Paisible", "en": "Peaceful", "de": "Friedlich" },
+          "children": [
+            { "id": "optimiste2", "label": { "fr": "Optimiste", "en": "Optimistic", "de": "Optimistisch" }, "desc": { "fr": "Attitude positive face à la vie.", "en": "Positive attitude towards life.", "de": "Positive Lebenseinstellung." } },
+            { "id": "aimant", "label": { "fr": "Aimant", "en": "Loving", "de": "Liebend" }, "desc": { "fr": "Capacité à aimer et être aimé.", "en": "Capacity to love and be loved.", "de": "Fähigkeit zu lieben und geliebt zu werden." } }
+          ]
+        },
+        {
+          "id": "fort",
+          "label": { "fr": "Fort", "en": "Strong", "de": "Stark" },
+          "children": [
+            { "id": "provocant", "label": { "fr": "Provocant.e", "en": "Provocative", "de": "Provokativ" }, "desc": { "fr": "Capacité à défier les normes.", "en": "Ability to challenge norms.", "de": "Fähigkeit, Normen in Frage zu stellen." } },
+            { "id": "courageux", "label": { "fr": "Courageux.se", "en": "Courageous", "de": "Mutig" }, "desc": { "fr": "Force face à l'adversité.", "en": "Strength in the face of adversity.", "de": "Stärke angesichts von Widrigkeiten." } }
+          ]
+        },
+        {
+          "id": "accepte",
+          "label": { "fr": "Accepté.e", "en": "Accepted", "de": "Akzeptiert" },
+          "children": [
+            { "id": "accompli", "label": { "fr": "Accompli.e", "en": "Accomplished", "de": "Erfüllt" }, "desc": { "fr": "Sentiment d'atteindre ses objectifs.", "en": "Feeling of achieving goals.", "de": "Gefühl, Ziele zu erreichen." } },
+            { "id": "respecte", "label": { "fr": "Respecté.e", "en": "Respected", "de": "Respektiert" }, "desc": { "fr": "Sentiment d'être valorisé.", "en": "Feeling valued.", "de": "Gefühl der Wertschätzung." } }
+          ]
+        },
+        {
+          "id": "fier",
+          "label": { "fr": "Fier.e", "en": "Proud", "de": "Stolz" },
+          "children": [
+            { "id": "important", "label": { "fr": "Important.e", "en": "Important", "de": "Wichtig" }, "desc": { "fr": "Sentiment d'avoir de l'importance.", "en": "Feeling of importance.", "de": "Gefühl von Bedeutung." } },
+            { "id": "curieux", "label": { "fr": "Curieux.se", "en": "Curious", "de": "Neugierig" }, "desc": { "fr": "Envie d'apprendre et d'explorer.", "en": "Desire to learn and explore.", "de": "Wunsch zu lernen und zu erforschen." } }
+          ]
+        },
+        {
+          "id": "interesse",
+          "label": { "fr": "Intéressé.e", "en": "Interested", "de": "Interessiert" },
+          "children": [
+            { "id": "amusé", "label": { "fr": "Amusé.e", "en": "Amused", "de": "Amüsiert" }, "desc": { "fr": "Plaisir et divertissement.", "en": "Pleasure and entertainment.", "de": "Vergnügen und Unterhaltung." } },
+            { "id": "extasie", "label": { "fr": "Extasié.e", "en": "Ecstatic", "de": "Entzückt" }, "desc": { "fr": "Joie intense et débordante.", "en": "Intense and overflowing joy.", "de": "Intensive und überquellende Freude." } }
+          ]
+        },
+        {
+          "id": "heureux",
+          "label": { "fr": "Heureux.se", "en": "Happy", "de": "Glücklich" },
+          "children": [
+            { "id": "confiant", "label": { "fr": "Confiant.e", "en": "Confident", "de": "Selbstbewusst" }, "desc": { "fr": "Croyance en ses capacités.", "en": "Belief in one's abilities.", "de": "Glaube an die eigenen Fähigkeiten." } },
+            { "id": "libere", "label": { "fr": "Libéré.e", "en": "Free", "de": "Befreit" }, "desc": { "fr": "Sentiment de liberté et d'autonomie.", "en": "Feeling of freedom and autonomy.", "de": "Gefühl von Freiheit und Autonomie." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tristesse",
+      "label": { "fr": "Tristesse", "en": "Sadness", "de": "Traurigkeit" },
+      "color": "#60A5FA",
+      "subcategories": [
+        {
+          "id": "culpabilite",
+          "label": { "fr": "Culpabilité", "en": "Guilt", "de": "Schuldgefühle" },
+          "children": [
+            { "id": "fautif", "label": { "fr": "Fautif.ve", "en": "Faulty", "de": "Schuldig" }, "desc": { "fr": "Sentiment d'être responsable d'un tort.", "en": "Feeling responsible for harm.", "de": "Gefühl, für einen Schaden verantwortlich zu sein." } },
+            { "id": "honteux", "label": { "fr": "Honteux.se", "en": "Shameful", "de": "Beschämend" }, "desc": { "fr": "Sentiment de honte profonde.", "en": "Deep feeling of shame.", "de": "Tiefes Schamgefühl." } }
+          ]
+        },
+        {
+          "id": "abandon",
+          "label": { "fr": "Abandon", "en": "Abandonment", "de": "Verlassenheit" },
+          "children": [
+            { "id": "ignore", "label": { "fr": "Ignoré.e", "en": "Ignored", "de": "Ignoriert" }, "desc": { "fr": "Sentiment d'être négligé.", "en": "Feeling neglected.", "de": "Gefühl der Vernachlässigung." } },
+            { "id": "replie", "label": { "fr": "Replié.e", "en": "Withdrawn", "de": "Zurückgezogen" }, "desc": { "fr": "Retrait de soi-même.", "en": "Self-withdrawal.", "de": "Selbstzurückzug." } }
+          ]
+        },
+        {
+          "id": "desespoir",
+          "label": { "fr": "Désespoir", "en": "Despair", "de": "Verzweiflung" },
+          "children": [
+            { "id": "impuissant", "label": { "fr": "Impuissant.e", "en": "Helpless", "de": "Hilflos" }, "desc": { "fr": "Sentiment d'impuissance.", "en": "Feeling of helplessness.", "de": "Gefühl der Hilflosigkeit." } },
+            { "id": "vulnerable", "label": { "fr": "Vulnérable", "en": "Vulnerable", "de": "Verletzlich" }, "desc": { "fr": "Sensibilité accrue aux blessures.", "en": "Increased sensitivity to wounds.", "de": "Erhöhte Empfindlichkeit gegenüber Verletzungen." } }
+          ]
+        },
+        {
+          "id": "depression",
+          "label": { "fr": "Dépression", "en": "Depression", "de": "Depression" },
+          "children": [
+            { "id": "minable", "label": { "fr": "Minable", "en": "Pathetic", "de": "Elend" }, "desc": { "fr": "Sentiment de dévalorisation.", "en": "Feeling of devaluation.", "de": "Gefühl der Entwertung." } },
+            { "id": "vide", "label": { "fr": "Vide", "en": "Empty", "de": "Leer" }, "desc": { "fr": "Sentiment de vide intérieur.", "en": "Feeling of inner emptiness.", "de": "Gefühl innerer Leere." } }
+          ]
+        },
+        {
+          "id": "solitude",
+          "label": { "fr": "Solitude", "en": "Loneliness", "de": "Einsamkeit" },
+          "children": [
+            { "id": "abandonne", "label": { "fr": "Abandonné.e", "en": "Abandoned", "de": "Verlassen" }, "desc": { "fr": "Sentiment d'avoir été laissé seul.", "en": "Feeling left alone.", "de": "Gefühl, allein gelassen worden zu sein." } },
+            { "id": "isole", "label": { "fr": "Isolé.e", "en": "Isolated", "de": "Isoliert" }, "desc": { "fr": "Sentiment d'être séparé des autres.", "en": "Feeling separated from others.", "de": "Gefühl, von anderen getrennt zu sein." } }
+          ]
+        },
+        {
+          "id": "ennui",
+          "label": { "fr": "Ennui", "en": "Boredom", "de": "Langeweile" },
+          "children": [
+            { "id": "amorphe", "label": { "fr": "Amorphe", "en": "Apathetic", "de": "Apathisch" }, "desc": { "fr": "Manque d'énergie et d'intérêt.", "en": "Lack of energy and interest.", "de": "Mangel an Energie und Interesse." } },
+            { "id": "indifferent", "label": { "fr": "Indifférent.e", "en": "Indifferent", "de": "Gleichgültig" }, "desc": { "fr": "Absence d'émotion ou d'intérêt.", "en": "Absence of emotion or interest.", "de": "Fehlen von Emotion oder Interesse." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "degout",
+      "label": { "fr": "Dégoût", "en": "Disgust", "de": "Ekel" },
+      "color": "#F97316",
+      "subcategories": [
+        {
+          "id": "reprobation",
+          "label": { "fr": "Réprobation", "en": "Disapproval", "de": "Missbilligung" },
+          "children": [
+            { "id": "juge", "label": { "fr": "Jugé.e", "en": "Judged", "de": "Gerichtet" }, "desc": { "fr": "Sentiment d'être évalué négativement.", "en": "Feeling negatively evaluated.", "de": "Gefühl, negativ bewertet zu werden." } },
+            { "id": "aversion1", "label": { "fr": "Aversion", "en": "Aversion", "de": "Abscheu" }, "desc": { "fr": "Rejet fort et instinctif.", "en": "Strong and instinctive rejection.", "de": "Starke und instinktive Ablehnung." } }
+          ]
+        },
+        {
+          "id": "deception",
+          "label": { "fr": "Déception", "en": "Disappointment", "de": "Enttäuschung" },
+          "children": [
+            { "id": "repugnant", "label": { "fr": "Répugnant.e", "en": "Repulsive", "de": "Widerlich" }, "desc": { "fr": "Ce qui provoque le dégoût.", "en": "What causes disgust.", "de": "Was Ekel hervorruft." } },
+            { "id": "revolte", "label": { "fr": "Révolté.e", "en": "Revolted", "de": "Empört" }, "desc": { "fr": "Indignation face à une injustice.", "en": "Indignation in the face of injustice.", "de": "Empörung angesichts eines Unrechts." } }
+          ]
+        },
+        {
+          "id": "terrible",
+          "label": { "fr": "Terrible", "en": "Terrible", "de": "Schrecklich" },
+          "children": [
+            { "id": "degout", "label": { "fr": "Dégoût", "en": "Disgust", "de": "Ekel" }, "desc": { "fr": "Rejet physique ou moral.", "en": "Physical or moral rejection.", "de": "Physische oder moralische Ablehnung." } },
+            { "id": "detestable", "label": { "fr": "Détestable", "en": "Detestable", "de": "Verabscheuenswert" }, "desc": { "fr": "Qualité de ce qui est haïssable.", "en": "Quality of what is loathsome.", "de": "Qualität des Hassenswürdigen." } }
+          ]
+        },
+        {
+          "id": "evitement",
+          "label": { "fr": "Évitement", "en": "Avoidance", "de": "Vermeidung" },
+          "children": [
+            { "id": "aversion2", "label": { "fr": "Aversion", "en": "Aversion", "de": "Abscheu" }, "desc": { "fr": "Volonté de s'éloigner.", "en": "Willingness to move away.", "de": "Wunsch, sich zu entfernen." } },
+            { "id": "hesitant", "label": { "fr": "Hésitant.e", "en": "Hesitant", "de": "Zögernd" }, "desc": { "fr": "Difficulté à agir ou décider.", "en": "Difficulty acting or deciding.", "de": "Schwierigkeit zu handeln oder zu entscheiden." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colere",
+      "label": { "fr": "Colère", "en": "Anger", "de": "Wut" },
+      "color": "#EF4444",
+      "subcategories": [
+        {
+          "id": "blesse",
+          "label": { "fr": "Blessé.e", "en": "Hurt", "de": "Verletzt" },
+          "children": [
+            { "id": "embarasse", "label": { "fr": "Embarrassé.e", "en": "Embarrassed", "de": "Verlegen" }, "desc": { "fr": "Malaise social ou personnel.", "en": "Social or personal discomfort.", "de": "Soziales oder persönliches Unbehagen." } },
+            { "id": "devaste", "label": { "fr": "Dévasté.e", "en": "Devastated", "de": "Verwüstet" }, "desc": { "fr": "Sentiment de destruction intérieure.", "en": "Feeling of inner destruction.", "de": "Gefühl innerer Zerstörung." } }
+          ]
+        },
+        {
+          "id": "menace",
+          "label": { "fr": "Menacé.e", "en": "Threatened", "de": "Bedroht" },
+          "children": [
+            { "id": "insecurise", "label": { "fr": "Insécurisé.e", "en": "Insecure", "de": "Unsicher" }, "desc": { "fr": "Manque de confiance en la sécurité.", "en": "Lack of trust in safety.", "de": "Mangelndes Vertrauen in die Sicherheit." } },
+            { "id": "jaloux", "label": { "fr": "Jaloux.se", "en": "Jealous", "de": "Eifersüchtig" }, "desc": { "fr": "Peur de perdre quelqu'un ou quelque chose.", "en": "Fear of losing someone or something.", "de": "Angst, jemanden oder etwas zu verlieren." } }
+          ]
+        },
+        {
+          "id": "haineux",
+          "label": { "fr": "Haineux.se", "en": "Hateful", "de": "Hasserfüllt" },
+          "children": [
+            { "id": "amer", "label": { "fr": "Amer", "en": "Bitter", "de": "Bitter" }, "desc": { "fr": "Rancune profonde.", "en": "Deep resentment.", "de": "Tiefer Groll." } },
+            { "id": "defiant", "label": { "fr": "Défiant.e", "en": "Defiant", "de": "Herausfordernd" }, "desc": { "fr": "Refus d'obéir ou de se soumettre.", "en": "Refusal to obey or submit.", "de": "Weigerung zu gehorchen oder sich zu unterwerfen." } }
+          ]
+        },
+        {
+          "id": "en_colere",
+          "label": { "fr": "En colère", "en": "Angry", "de": "Wütend" },
+          "children": [
+            { "id": "furieux", "label": { "fr": "Furieux.se", "en": "Furious", "de": "Wütend" }, "desc": { "fr": "Colère intense.", "en": "Intense anger.", "de": "Intensive Wut." } },
+            { "id": "enrage", "label": { "fr": "Enragé.e", "en": "Enraged", "de": "Rasend" }, "desc": { "fr": "Colère hors de contrôle.", "en": "Out-of-control anger.", "de": "Außer Kontrolle geratene Wut." } }
+          ]
+        },
+        {
+          "id": "agressif",
+          "label": { "fr": "Agressif.ve", "en": "Aggressive", "de": "Aggressiv" },
+          "children": [
+            { "id": "provocateur", "label": { "fr": "Provocateur.ice", "en": "Provocative", "de": "Provokativ" }, "desc": { "fr": "Action visant à provoquer.", "en": "Action intended to provoke.", "de": "Handlung, die provozieren soll." } },
+            { "id": "hostile", "label": { "fr": "Hostile", "en": "Hostile", "de": "Feindselig" }, "desc": { "fr": "Attitude hostile et agressive.", "en": "Hostile and aggressive attitude.", "de": "Feindselige und aggressive Haltung." } }
+          ]
+        },
+        {
+          "id": "frustre",
+          "label": { "fr": "Frustré.e", "en": "Frustrated", "de": "Frustratiert" },
+          "children": [
+            { "id": "mecontent", "label": { "fr": "Mécontent.e", "en": "Dissatisfied", "de": "Unzufrieden" }, "desc": { "fr": "Insatisfaction face à une situation.", "en": "Dissatisfaction with a situation.", "de": "Unzufriedenheit mit einer Situation." } },
+            { "id": "irrite", "label": { "fr": "Irrité.e", "en": "Irritated", "de": "Gereizt" }, "desc": { "fr": "Agacement léger.", "en": "Light irritation.", "de": "Leichte Irritation." } }
+          ]
+        },
+        {
+          "id": "distant",
+          "label": { "fr": "Distant.e", "en": "Distant", "de": "Distanziert" },
+          "children": [
+            { "id": "retire", "label": { "fr": "Retiré.e", "en": "Withdrawn", "de": "Zurückgezogen" }, "desc": { "fr": "Isolement volontaire.", "en": "Voluntary isolation.", "de": "Freiwillige Isolierung." } },
+            { "id": "suspect", "label": { "fr": "Suspect", "en": "Suspicious", "de": "Verdächtig" }, "desc": { "fr": "Méfiance envers autrui.", "en": "Distrust of others.", "de": "Misstrauen gegenüber anderen." } }
+          ]
+        },
+        {
+          "id": "critique",
+          "label": { "fr": "Critique", "en": "Critical", "de": "Kritisch" },
+          "children": [
+            { "id": "sceptique", "label": { "fr": "Sceptique", "en": "Skeptical", "de": "Skeptisch" }, "desc": { "fr": "Doute et remise en question.", "en": "Doubt and questioning.", "de": "Zweifel und Hinterfragung." } },
+            { "id": "sarcastique", "label": { "fr": "Sarcastique", "en": "Sarcastic", "de": "Sarkastisch" }, "desc": { "fr": "Moquerie ironique.", "en": "Ironical mockery.", "de": "Ironische Spöttelei." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peur",
+      "label": { "fr": "Peur", "en": "Fear", "de": "Angst" },
+      "color": "#8B5CF6",
+      "subcategories": [
+        {
+          "id": "humilie",
+          "label": { "fr": "Humilié.e", "en": "Humiliated", "de": "Demütig" },
+          "children": [
+            { "id": "ridiculise", "label": { "fr": "Ridiculisé.e", "en": "Ridiculed", "de": "Lächerlich gemacht" }, "desc": { "fr": "Sentiment d'être moqué.", "en": "Feeling mocked.", "de": "Gefühl, verspottet zu werden." } },
+            { "id": "non_respecte", "label": { "fr": "Non respecté.e", "en": "Disrespected", "de": "Nicht respektiert" }, "desc": { "fr": "Manque de considération.", "en": "Lack of consideration.", "de": "Mangelnde Rücksichtnahme." } }
+          ]
+        },
+        {
+          "id": "rejete",
+          "label": { "fr": "Rejeté.e", "en": "Rejected", "de": "Abgelehnt" },
+          "children": [
+            { "id": "exclu", "label": { "fr": "Exclu.e", "en": "Excluded", "de": "Ausgeschlossen" }, "desc": { "fr": "Sentiment d'être mis à part.", "en": "Feeling set apart.", "de": "Gefühl, ausgeschlossen zu sein." } },
+            { "id": "inadequat", "label": { "fr": "Inadéquat.e", "en": "Inadequate", "de": "Unzureichend" }, "desc": { "fr": "Sentiment de ne pas suffire.", "en": "Feeling of not being enough.", "de": "Gefühl, nicht genug zu sein." } }
+          ]
+        },
+        {
+          "id": "docile",
+          "label": { "fr": "Docile", "en": "Submissive", "de": "Fügig" },
+          "children": [
+            { "id": "insignifiant", "label": { "fr": "Insignifiant.e", "en": "Insignificant", "de": "Unbedeutend" }, "desc": { "fr": "Sentiment de peu d'importance.", "en": "Feeling of little importance.", "de": "Gefühl geringer Bedeutung." } },
+            { "id": "sans_valeur", "label": { "fr": "Sans valeur", "en": "Worthless", "de": "Wertlos" }, "desc": { "fr": "Manque de valeur perçue.", "en": "Lack of perceived value.", "de": "Fehlender wahrgenommener Wert." } }
+          ]
+        },
+        {
+          "id": "insecure",
+          "label": { "fr": "Insécure", "en": "Insecure", "de": "Unsicher" },
+          "children": [
+            { "id": "inferieur", "label": { "fr": "Inférieur.e", "en": "Inferior", "de": "Unterlegen" }, "desc": { "fr": "Sentiment d'infériorité.", "en": "Feeling of inferiority.", "de": "Gefühl der Unterlegenheit." } },
+            { "id": "incapable", "label": { "fr": "Incapable", "en": "Incapable", "de": "Unfähig" }, "desc": { "fr": "Sentiment d'incapacité à agir.", "en": "Feeling of inability to act.", "de": "Gefühl der Handlungsunfähigkeit." } }
+          ]
+        },
+        {
+          "id": "anxieux",
+          "label": { "fr": "Anxieux.se", "en": "Anxious", "de": "Ängstlich" },
+          "children": [
+            { "id": "preoccupe", "label": { "fr": "Préoccupé.e", "en": "Preoccupied", "de": "Besorgt" }, "desc": { "fr": "Esprit occupé par des soucis.", "en": "Mind occupied with worries.", "de": "Geist besorgt mit Sorgen." } },
+            { "id": "accable", "label": { "fr": "Accablé.e", "en": "Overwhelmed", "de": "Überwältigt" }, "desc": { "fr": "Sentiment d'être submergé.", "en": "Feeling overwhelmed.", "de": "Gefühl, überwältigt zu sein." } }
+          ]
+        },
+        {
+          "id": "apeure",
+          "label": { "fr": "Apeuré.e", "en": "Afraid", "de": "Verängstigt" },
+          "children": [
+            { "id": "craintif", "label": { "fr": "Craintif.ve", "en": "Fearful", "de": "Furchtsam" }, "desc": { "fr": "Disposition à la peur.", "en": "Disposition to fear.", "de": "Neigung zur Angst." } },
+            { "id": "terrifie", "label": { "fr": "Terrifié.e", "en": "Terrified", "de": "Terrorisiert" }, "desc": { "fr": "Peur extrême.", "en": "Extreme fear.", "de": "Extreme Angst." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surprise",
+      "label": { "fr": "Surprise", "en": "Surprise", "de": "Überraschung" },
+      "color": "#10B981",
+      "subcategories": [
+        {
+          "id": "surpris",
+          "label": { "fr": "Surpris.e", "en": "Surprised", "de": "Überrascht" },
+          "children": [
+            { "id": "choque", "label": { "fr": "Choqué.e", "en": "Shocked", "de": "Geschockt" }, "desc": { "fr": "Réaction forte à un événement.", "en": "Strong reaction to an event.", "de": "Starke Reaktion auf ein Ereignis." } },
+            { "id": "consterne", "label": { "fr": "Consterné.e", "en": "Dismayed", "de": "Bestürzt" }, "desc": { "fr": "Surprise mêlée de tristesse.", "en": "Surprise mixed with sadness.", "de": "Überraschung gemischt mit Traurigkeit." } }
+          ]
+        },
+        {
+          "id": "confus",
+          "label": { "fr": "Confus.e", "en": "Confused", "de": "Verwirrt" },
+          "children": [
+            { "id": "delusionne", "label": { "fr": "Déllisionné.e", "en": "Deluded", "de": "Getäuscht" }, "desc": { "fr": "État de confusion mentale.", "en": "State of mental confusion.", "de": "Zustand geistiger Verwirrung." } },
+            { "id": "perplexe", "label": { "fr": "Perplexe", "en": "Perplex", "de": "Verblüfft" }, "desc": { "fr": "Incertain face à une situation.", "en": "Uncertain in a situation.", "de": "Unsicher in einer Situation." } }
+          ]
+        },
+        {
+          "id": "etonne",
+          "label": { "fr": "Étonné.e", "en": "Astonished", "de": "Erstaunt" },
+          "children": [
+            { "id": "abasourdi", "label": { "fr": "Abasourdi.e", "en": "Stunned", "de": "Benommen" }, "desc": { "fr": "Surprise qui laisse sans voix.", "en": "Surprise that leaves speechless.", "de": "Überraschung, die sprachlos macht." } },
+            { "id": "effraye", "label": { "fr": "Effrayé.e", "en": "Frightened", "de": "Verängstigt" }, "desc": { "fr": "Surprise mêlée de peur.", "en": "Surprise mixed with fear.", "de": "Überraschung gemischt mit Angst." } }
+          ]
+        },
+        {
+          "id": "excite",
+          "label": { "fr": "Excité.e", "en": "Excited", "de": "Aufgeregt" },
+          "children": [
+            { "id": "avide", "label": { "fr": "Avide", "en": "Eager", "de": "Begierig" }, "desc": { "fr": "Désir intense et impatient.", "en": "Intense and impatient desire.", "de": "Intensiver und ungeduldiger Wunsch." } },
+            { "id": "energique", "label": { "fr": "Énergique", "en": "Energetic", "de": "Energisch" }, "desc": { "fr": "Vigueur et dynamisme.", "en": "Vigor and dynamism.", "de": "Kraft und Dynamik." } }
+          ]
+        }
+      ]
+    }
+  ]
+}

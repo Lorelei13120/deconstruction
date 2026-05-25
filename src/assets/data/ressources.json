@@ -1,0 +1,32 @@
+{
+  "resources": [
+    {
+      "title": { "fr": "La Bonne Poire", "en": "The Good Pear", "de": "Die Gute Birne" },
+      "author": "Bx",
+      "url": "https://www.labonnepoire.be/",
+      "type": "site",
+      "desc": { "fr": "Ressources sur le consentement et les relations saines.", "en": "Resources on consent and healthy relationships.", "de": "Ressourcen zu Einwilligung und gesunden Beziehungen." }
+    },
+    {
+      "title": { "fr": "Je ne veux plus agresser, je fais comment ?", "en": "I don't want to aggress anymore, what do I do?", "de": "Ich will nicht mehr angreifen, was mache ich?" },
+      "author": "Brochure",
+      "url": "https://infokiosques.net/spip.php?page=article&id_article=2226",
+      "type": "pdf",
+      "desc": { "fr": "Guide pratique pour arrêter les comportements agressifs.", "en": "Practical guide to stop aggressive behaviors.", "de": "Praktischer Leitfaden, um aggressives Verhalten zu stoppen." }
+    },
+    {
+      "title": { "fr": "Comment devenir moins con en 10 étapes", "en": "How to become less stupid in 10 steps", "de": "Wie man in 10 Schritten weniger dumm wird" },
+      "author": "Delval",
+      "url": "https://www.babelio.com/livres/Delval-Comment-devenir-moins-con-en-dix-etapes/1518183",
+      "type": "book",
+      "desc": { "fr": "Livre pour travailler sur ses biais et son ego.", "en": "Book to work on biases and ego.", "de": "Buch zur Arbeit an Vorurteilen und Ego." }
+    },
+    {
+      "title": { "fr": "Difficult Hugs", "en": "Difficult Hugs", "de": "Schwierige Umarmungen" },
+      "author": "MAP",
+      "url": "https://map-cph.ukrudt.net/",
+      "type": "book",
+      "desc": { "fr": "Essentiel pour comprendre les dynamiques de genre et l'entraide.", "en": "Essential for understanding gender dynamics and mutual aid.", "de": "Essentiell zum Verständnis von Geschlechterdynamiken und gegenseitiger Hilfe." }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #fff0f5; /* Lavender Blush */
+    --foreground: #4c1d95; /* Violet 900 */
+    --card: #ffffff;
+    --card-foreground: #1f2937;
+    --popover: #ffffff;
+    --popover-foreground: #1f2937;
+    --primary: #db2777; /* Rose 600 */
+    --primary-foreground: #ffffff;
+    --secondary: #f3e8ff; /* Purple 100 */
+    --secondary-foreground: #581c87;
+    --muted: #fdf2f8; /* Rose 50 */
+    --muted-foreground: #be185d;
+    --accent: #c084fc; /* Violet 400 */
+    --accent-foreground: #ffffff;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --border: #fbcfe8;
+    --input: #fbcfe8;
+    --ring: #db2777;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-brand-light text-brand-text antialiased;
+  }
+}
