@@ -42,7 +42,7 @@ export default {
         '2xl': '1.5rem', // Coins très arrondis pour le côté doux
       },
       fontFamily: {
-        sans: ['Barlow Condensed', 'sans-serif'], // Police compacte et lisible
+        sans: ['Barlow Condensed', 'sans-serif'], // Typographie compacte et lisible
       },
     },
   },

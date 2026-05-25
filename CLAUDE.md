@@ -4,9 +4,9 @@ Résolvez les problèmes sans introduire de régression ni de dette technique ar
 
 ## I. Finalité
 
-**Application** : `vite_react_shadcn_ts` — site vitrine éducatif multilingue (FR/DE/EN) sur la déconstruction patriarcale, l'empathie et les pratiques d'entraide mutuelle (MAP).
+**Application** : `vite_react_shadcn_ts` — site vitrine éducatif multilingue (FR/DE/EN) sur la déconstruction patriarcale, l'empathie et le soin (care). Outil militant.
 **Objectif métier** : Fournir des outils concrets (roue des émotions, guides, ressources) pour apprendre à prendre soin des autres et comprendre les mécanismes sociaux. Site statique déployé sur GitHub Pages (ou équivalent).
-**Déploiement** : Site statique sur GitHub Pages (`https://lorelei13120.github.io/deconstruction/`).
+**Déploiement** : Site statique sur GitHub Pages (`https://lorelei13120.github.io/deconstruction/`). Pas pour l'instant.
 
 ## II. Architecture
 
@@ -77,7 +77,7 @@ npm run test:watch       # vitest watch
 
 | Modification | Fichier à mettre à jour |
 |---|---|
-| Nouvelle langue (ex: ES) | `src/lib/translations.ts` + LanguageContext |
+| Nouvelle langue (ex: ES) | `src/lib/translations.ts` + languageContext |
 | Nouvelle émotion | `src/assets/data/emotions.json` |
 | Nouvelle ressource | `src/assets/data/resources.json` |
 | Changement de route | `src/App.tsx + docs/architecture.md` |
