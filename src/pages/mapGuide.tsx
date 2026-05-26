@@ -46,6 +46,50 @@ const MapGuidePage: React.FC = () => {
           ))}
         </div>
 
+        {/* Les Outils */}
+        <div className="pt-8">
+          <h2 className="text-3xl font-bold text-brand-deep mb-8 text-center">
+            {t('map.tools.title')}
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-md border-rose-100 flex flex-col">
+              <h3 className="text-xl font-bold text-brand-deep mb-3">
+                {t('map.tools.emotionalWork.title')}
+              </h3>
+              <p className="text-brand-text text-sm mb-4 flex-grow">
+                {t('map.tools.emotionalWork.description')}
+              </p>
+              <p className="text-sm italic text-purple-700 bg-purple-50 p-3 rounded-lg">
+                💡 {t('map.tools.emotionalWork.tip')}
+              </p>
+            </Card>
+
+            <Card className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-md border-rose-100 flex flex-col">
+              <h3 className="text-xl font-bold text-brand-deep mb-3">
+                {t('map.tools.tekmilShort.title')}
+              </h3>
+              <p className="text-brand-text text-sm mb-4 flex-grow">
+                {t('map.tools.tekmilShort.description')}
+              </p>
+              <p className="text-sm italic text-purple-700 bg-purple-50 p-3 rounded-lg">
+                💡 {t('map.tools.tekmilShort.tip')}
+              </p>
+            </Card>
+
+            <Card className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-md border-rose-100 flex flex-col">
+              <h3 className="text-xl font-bold text-brand-deep mb-3">
+                {t('map.tools.tekmilLong.title')}
+              </h3>
+              <p className="text-brand-text text-sm mb-4 flex-grow">
+                {t('map.tools.tekmilLong.description')}
+              </p>
+              <p className="text-sm italic text-purple-700 bg-purple-50 p-3 rounded-lg">
+                💡 {t('map.tools.tekmilLong.tip')}
+              </p>
+            </Card>
+          </div>
+        </div>
+
         <div className="text-center pt-8">
           <p className="text-brand-text">
             {t('map.moreInfo')}
