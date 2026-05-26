@@ -10,8 +10,6 @@ const LanguageSwitcher: React.FC = () => {
     { code: 'en', label: 'EN', fullName: 'English' },
   ];
 
-  const currentLanguage = languages.find((lang) => lang.code === language);
-
   return (
     <div className="relative">
       <select
