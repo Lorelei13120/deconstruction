@@ -10,6 +10,49 @@ const TherapyPage: React.FC = () => {
   const tableHeaders = t('therapy.tep.table') as unknown as Record<string, string>;
   const exampleRow = t('therapy.tep.exampleRow') as unknown as Record<string, string>;
   const distortionItems = t('therapy.tep.distortions.items') as unknown as string[];
+  
+  const tepSteps = [
+    {
+      key: 'step1',
+      title: t('therapy.tep.steps.step1.title'),
+      description: t('therapy.tep.steps.step1.description'),
+    },
+    {
+      key: 'step2',
+      title: t('therapy.tep.steps.step2.title'),
+      description: t('therapy.tep.steps.step2.description'),
+    },
+    {
+      key: 'step3',
+      title: t('therapy.tep.steps.step3.title'),
+      description: t('therapy.tep.steps.step3.description'),
+    },
+    {
+      key: 'step4',
+      title: t('therapy.tep.steps.step4.title'),
+      description: t('therapy.tep.steps.step4.description'),
+    },
+  ];
+
+  const questionTypes = [
+    {
+      key: 'type1',
+      title: t('therapy.tep.questionningTypes.type1.title'),
+      description: t('therapy.tep.questionningTypes.type1.description'),
+    },
+    {
+      key: 'type2',
+      title: t('therapy.tep.questionningTypes.type2.title'),
+      description: t('therapy.tep.questionningTypes.type2.description'),
+    },
+    {
+      key: 'type3',
+      title: t('therapy.tep.questionningTypes.type3.title'),
+      description: t('therapy.tep.questionningTypes.type3.description'),
+    },
+  ];
+
+  const benefits = t('therapy.tep.benefits.items') as unknown as string[];
 
   const perpetuationModes = [
     {
@@ -135,7 +178,7 @@ const TherapyPage: React.FC = () => {
             ))}
           </div>
         </section>
-        
+
         {/* Section 2: La Perpétuation des Schémas */}
         <section className="space-y-6">
           <h2 className="text-3xl font-bold text-brand-deep">
@@ -186,6 +229,59 @@ const TherapyPage: React.FC = () => {
               </p>
             </Card>
           </div>
+
+          {/* Les 4 Étapes du TEP */}
+          <div className="space-y-4">
+            <h3 className="text-2xl font-bold text-brand-deep">
+              {t('therapy.tep.steps.title')}
+            </h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              {tepSteps.map((step) => (
+                <Card key={step.key} className="bg-white/80 backdrop-blur-sm p-5 rounded-2xl shadow-md border-rose-100">
+                  <h4 className="text-lg font-bold text-brand-deep mb-2">
+                    {step.title}
+                  </h4>
+                  <p className="text-brand-text text-sm">
+                    {step.description}
+                  </p>
+                </Card>
+              ))}
+            </div>
+          </div>
+
+          {/* Les 3 Types de Questions */}
+          <div className="space-y-4">
+            <h3 className="text-2xl font-bold text-brand-deep">
+              {t('therapy.tep.questionningTypes.title')}
+            </h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              {questionTypes.map((question) => (
+                <Card key={question.key} className="bg-white/80 backdrop-blur-sm p-5 rounded-2xl shadow-md border-rose-100">
+                  <h4 className="text-lg font-bold text-brand-deep mb-2">
+                    {question.title}
+                  </h4>
+                  <p className="text-brand-text text-sm">
+                    {question.description}
+                  </p>
+                </Card>
+              ))}
+            </div>
+          </div>
+
+          {/* Avantages du TEP */}
+          <Card className="bg-purple-50/50 p-6 rounded-2xl border-purple-100">
+            <h3 className="text-2xl font-bold text-brand-deep mb-4">
+              {t('therapy.tep.benefits.title')}
+            </h3>
+            <ul className="space-y-3 text-brand-text">
+              {benefits.map((benefit, index) => (
+                <li key={index} className="flex gap-3">
+                  <span className="text-rose-500 font-bold">✓</span>
+                  <span>{benefit}</span>
+                </li>
+              ))}
+            </ul>
+          </Card>
 
           {/* Example Table */}
           <Card className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-lg border-rose-100 overflow-x-auto">
