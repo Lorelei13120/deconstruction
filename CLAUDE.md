@@ -40,7 +40,7 @@ Résolvez les problèmes sans introduire de régression ni de dette technique ar
 
 ## IV. Garde-Fous non négociables
 
-1. **Chemin des assets** : Toujours préfixer par `import.meta.env.BASE_URL` pour la compatibilité GitHub Pages.
+1. **Chemin des assets statiques** : Toujours préfixer les chemins vers `/public/` par `import.meta.env.BASE_URL` pour la compatibilité GitHub Pages (ex: `<img src={`${import.meta.env.BASE_URL}images/logo.png`} />`). Les imports TypeScript (ex: `import { Button } from '@/components/ui/button'`) ne nécessitent pas ce préfixe.
 2. **i8n stricte** : Aucun texte visible dans le JSX. Tout passe par `t('clé')`. 
    - **Tri-langue** : Toute nouvelle clé doit avoir { fr, de, en }.
 3. **Données Roue** : Les émotions et descriptions sont dans `src/assets/data/emotions.json`. Ne pas hardcoder dans le composant.
@@ -60,16 +60,32 @@ Résolvez les problèmes sans introduire de régression ni de dette technique ar
 
 ## VI. Commandes de Développement
 
+### Développement local
 ```bash
-npm install              # installe les dépendances
+npm install              # installe les dépendances (une fois)
 npm run dev              # serveur Vite, port 8080, HMR
-npm run build            # build production (avec base /hirondelles/)
-npm run build:dev        # build mode développement
-npm run preview          # preview du build local
 npm run lint             # ESLint sur tout le repo
 npm run test             # vitest run (one-shot)
-npm run test:watch       # vitest watch
+npm run test:watch       # vitest watch en mode interactif
 ```
+
+### Production & Vérification
+
+```bash
+npm run build            # build production (TypeScript check + Vite compile)
+npm run preview          # preview du build local avant déploiement
+```
+
+⚠️ **Important** : `npm run build` est **requis** pour GitHub Pages. Généré la sortie `dist/` qui est déployée.
+
+### Déploiement
+
+**Automatisé via GitHub Actions** : À chaque push sur `main`, le workflow `.github/workflows/deploy.yml` :
+1. Lance `npm run lint` (vérification qualité)
+2. Lance `npm run build` (compilation)
+3. Déploie `dist/` vers la branche `gh-pages`
+
+⚠️ **Aucune action manuelle requise** — le déploiement sur GitHub Pages est entièrement automatisé.
 
 ## VII. Maintenance documentaire
 
@@ -81,6 +97,19 @@ npm run test:watch       # vitest watch
 | Nouvelle émotion | `src/assets/data/emotions.json` |
 | Nouvelle ressource | `src/assets/data/resources.json` |
 | Changement de route | `src/App.tsx + docs/architecture.md` |
+
+## VII.bis Configuration GitHub Pages
+
+Le workflow automatisé `.github/workflows/deploy.yml` construit et déploie vers GitHub Pages à chaque push sur `main`.
+
+**Configuration requise** (à faire une seule fois dans les paramètres du repo) :
+1. Aller à **Settings → Pages**
+2. Sous "Build and deployment", sélectionner :
+   - **Source** : Deploy from a branch
+   - **Branch** : `gh-pages` / `root`
+3. Sauvegarder
+
+Le workflow crée automatiquement la branche `gh-pages` et y pousse l'artefact `dist/` compilé.
 
 ## VIII. Contexte de Session
 
