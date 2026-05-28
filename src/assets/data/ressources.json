@@ -27,6 +27,12 @@
       "url": "https://map-cph.ukrudt.net/",
       "type": "book",
       "desc": { "fr": "Guide ultime pour créer un groupe de reflexion et d'actions pour changer ses comportements et travailler son empathie entre personnes ayant reçu une socialisation masculine.", "en": "The ultimate guide to setting up a discussion and action group aimed at changing behaviours and developing empathy among people who have been raised as male.", "de": "Der ultimative Leitfaden zur Gründung einer Reflexions- und Aktionsgruppe, um Verhaltensweisen zu ändern und die Empathie unter Menschen zu fördern, die eine männliche Sozialisation erfahren haben." }
+    },
+    {"title":{"fr": "Quitter son mec", "en" : "Leave one's boyfriend", "de": "Sich von seinem Freund trennen"},
+      "author": "anonyme",
+      "url": "https://infokiosques.net/spip.php?article2276",
+      "type": "website",
+      "desc": { "fr": "Ferais-tu mieux de quitter ton cheum? Ce zine y répond. Pour les cheums en question, il sert de boussole, aide à comprendre l'impact de comportements problématiques ou irresponsables. A mettre entre toutes les mains.", "en": "Should you leave your boyfriend? This zine answers it. For the boyfriends in question, it serves as a guide, helping them understand the impact of problematic or irresponsible behaviour. A must-read for everyone.", "de": "Solltest du dich vielleicht von deinem Freund trennen? Dieses Zine antwortet. Für die betroffenen Freunde dient es als Orientierungshilfe und hilft dabei, die Auswirkungen problematischer oder unverantwortlicher Verhaltensweisen zu verstehen. Ein Muss für alle." }
     }
   ]
 }
