@@ -1,15 +1,15 @@
 {
   "resources": [
     {
-      "title": { "fr": "La Bonne Poire", "en": "The Good Pear", "de": "Die Gute Birne" },
-      "author": "Bx",
-      "url": "https://www.labonnepoire.be/",
+      "title": { "fr": "Se mettre au travail", "en": "Get to work", "de": "Sich ans Werk machen" },
+      "author": "La Bonne Poire",
+      "url": "https://www.labonnepoire.be/post/zine-la-bonne-poire-acte-1-se-mettre-au-travail",
       "type": "site",
-      "desc": { "fr": "Ressources sur le consentement et les relations saines.", "en": "Resources on consent and healthy relationships.", "de": "Ressourcen zu Einwilligung und gesunden Beziehungen." }
+      "desc": { "fr": "Sélection de textes écrits par La Bonne Poire, collectif organisant des évènements et espaces destinés à un public masculin", "en": "A selection of texts written by La Bonne Poire, a collective that organises events and spaces aimed at a male audience.", "de": "Eine Auswahl von Texten von La Bonne Poire, einem Kollektiv, das Veranstaltungen und Treffpunkte für ein männliches Publikum organisiert." }
     },
     {
       "title": { "fr": "Je ne veux plus agresser, je fais comment ?", "en": "I don't want to aggress anymore, what do I do?", "de": "Ich will nicht mehr angreifen, was mache ich?" },
-      "author": "Brochure",
+      "author": "Hérisson",
       "url": "https://infokiosques.net/spip.php?page=article&id_article=2226",
       "type": "pdf",
       "desc": { "fr": "Guide pratique pour arrêter les comportements agressifs.", "en": "Practical guide to stop aggressive behaviors.", "de": "Praktischer Leitfaden, um aggressives Verhalten zu stoppen." }
@@ -17,16 +17,16 @@
     {
       "title": { "fr": "Comment devenir moins con en 10 étapes", "en": "How to become less stupid in 10 steps", "de": "Wie man in 10 Schritten weniger dumm wird" },
       "author": "Delval",
-      "url": "https://www.babelio.com/livres/Delval-Comment-devenir-moins-con-en-dix-etapes/1518183",
+      "url": "https://horsdatteinte.org/livre/comment-devenir-moins-con-en-dix-etapes/",
       "type": "book",
-      "desc": { "fr": "Livre pour travailler sur ses biais et son ego.", "en": "Book to work on biases and ego.", "de": "Buch zur Arbeit an Vorurteilen und Ego." }
+      "desc": { "fr": "Livre pour travailler sur ses biais sexistes et ses comportements à tendance irrésponsables.", "en": "A book to help you work on your gender biases and irresponsible behaviour.", "de": "Ein Buch, um an seinen sexistischen Vorurteilen und seinem tendenziell unverantwortlichen Verhalten zu arbeiten." }
     },
     {
-      "title": { "fr": "Difficult Hugs", "en": "Difficult Hugs", "de": "Schwierige Umarmungen" },
-      "author": "MAP",
+      "title": { "fr": "Difficult Hugs", "en": "Difficult Hugs", "de": "Difficult Hugs" },
+      "author": "MAP[CPH]",
       "url": "https://map-cph.ukrudt.net/",
       "type": "book",
-      "desc": { "fr": "Essentiel pour comprendre les dynamiques de genre et l'entraide.", "en": "Essential for understanding gender dynamics and mutual aid.", "de": "Essentiell zum Verständnis von Geschlechterdynamiken und gegenseitiger Hilfe." }
+      "desc": { "fr": "Guide ultime pour créer un groupe de reflexion et d'actions pour changer ses comportements et travailler son empathie entre personnes ayant reçu une socialisation masculine.", "en": "The ultimate guide to setting up a discussion and action group aimed at changing behaviours and developing empathy among people who have been raised as male.", "de": "Der ultimative Leitfaden zur Gründung einer Reflexions- und Aktionsgruppe, um Verhaltensweisen zu ändern und die Empathie unter Menschen zu fördern, die eine männliche Sozialisation erfahren haben." }
     }
   ]
 }

@@ -24,7 +24,7 @@ const MapGuidePage: React.FC = () => {
         <Card className="bg-gradient-to-r from-rose-50 to-purple-50 p-8 rounded-3xl border-rose-100 shadow-lg text-center">
           <Quote className="w-10 h-10 text-rose-400 mx-auto mb-4" />
           <blockquote className="text-2xl font-medium text-brand-deep italic mb-4">
-            "{t('map.quote')}"
+            &quot;{t('map.quote')}&quot;
           </blockquote>
           <cite className="text-brand-text not-italic">— {t('map.quoteSource')}</cite>
         </Card>

@@ -69,7 +69,7 @@ export default {
       steps: [
         {
           title: '1. Rassembler',
-          content: 'Faire un appel pour créer un groupe. Réfléchir à l\'inclusion et la non-inclusion : à qui s\'adresse ce groupe?.',
+          content: 'Faire un appel pour créer un groupe. Réfléchir à l\'inclusion et la non-inclusion : à qui s\'adresse ce groupe?',
         },
         {
           title: '2. Établir des bases communes de fonctionnement',
@@ -88,7 +88,7 @@ export default {
           content: 'Être attentif.ve à ses comportements hors des réunions et tenter chaque jour de challenger sa socialisation masculine.',
         },
       ],
-      moreInfo: 'Pour plus d\'informations, visitez le site officiel de MAP[CPH].',
+      moreInfo: 'Pour plus d\'informations, visitez le site officiel de MAP[CPH]',
       tools: {
         title: 'Les Outils du Groupe MAP',
         emotionalWork: {
@@ -334,7 +334,7 @@ export default {
           content: 'Auf das eigene Verhalten außerhalb der Treffen achten und jeden Tag versuchen, die eigene männliche Sozialisation zu hinterfragen.',
         },
       ],
-      moreInfo: 'Für weitere Informationen besuchen Sie die offizielle MAP[CPH] Website.',
+      moreInfo: 'Für weitere Informationen besuchen Sie die offizielle MAP[CPH] Website',
       tools: {
         title: 'MAP Gruppenwerkzeuge',
         emotionalWork: {
@@ -580,7 +580,7 @@ export default {
           content: 'Be mindful of your behaviour outside of meetings and try every day to challenge your masculine socialisation.',
         },
       ],
-      moreInfo: 'For more info, visit the official MAP[CPH] website.',
+      moreInfo: 'For more info, visit the official MAP[CPH] website',
       tools: {
         title: 'MAP Group Tools',
         emotionalWork: {
