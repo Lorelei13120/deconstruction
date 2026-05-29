@@ -52,6 +52,11 @@ export default {
     emotions: {
       title: 'Roue des Émotions',
       description: 'Explorer ses sentiments et apprendre à les nommer.',
+      intro: {
+          title: 'Pourquoi un outil comme celui-ci ?',
+          whyUse1: 'En tant que personnes ayant reçu une socialisation masculine, on ne nous a pas appris (et nous n\'apprenons pas non plus par nous-même) à reconnaître et exprimer nos sentiments. Cet outil est pensé pour aider dans ce processus.',
+          whyUse2: 'C\'est la première étape vers l\'intelligence émotionnelle, qui peut conduire à une amélioration des relations avec nous-mêmes et les autres.',
+        },
     },
     resources: {
       title: 'Ressources pour la Déconstruction',
@@ -297,7 +302,12 @@ export default {
     },
     emotions: {
       title: 'Rad der Emotionen',
-      description: 'Erkunden Sie Ihre Gefühle und lernen Sie, sie zu benennen.',
+      description: 'Seine Gefühle erkunden und lernen, sie zu benennen.',
+      intro: {
+          title: 'Warum sollte man ein solches Tool nutzen?',
+          whyUse1: 'Als Menschen, die als Männer sozialisiert wurden, wird uns nicht beigebracht (und wir lernen es auch nicht von selbst), unsere Gefühle wahrzunehmen und auszudrücken. Dieses Tool soll uns dabei helfen.',
+          whyUse2: 'Dies ist der erste Schritt hin zu emotionaler Intelligenz, die zu einer Verbesserung der Beziehung zu uns selbst und zu anderen führen kann.',
+        },
     },
     resources: {
       title: 'Ressourcen für Dekonstruktion',
@@ -544,6 +554,11 @@ export default {
     emotions: {
       title: 'Emotion Wheel',
       description: 'Explore your feelings and learn to name them.',
+      intro: {
+          title: 'Why use a tool like this one?',
+          whyUse1: 'As people who have been socialised as men, we are not taught (nor do we learn on our own) to learn and express our feelings. This tool is designed to help in this process.',
+          whyUse2: 'This is the first step toward emotional intelligence, which can lead to improve relationships with ourselves.',
+        },
     },
     resources: {
       title: 'Resources for Deconstruction',

@@ -17,7 +17,23 @@ const EmotionsPage: React.FC = () => {
               {t('emotions.description')}
             </p>
           </div>
-          
+
+          {/* Section 1: Pourquoi? */}
+        <section className="space-y-6">
+          <div>
+            <Card className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-md border-rose-100">
+              <h2 className="text-3xl font-bold text-brand-deep mb-4">
+              {t('emotions.intro.title')}
+            </h2>
+            <p className="text-brand-text text-lg mb-4">
+                {t('emotions.intro.whyUse1')}
+              </p>
+              <p className="text-brand-text text-lg">
+                {t('emotions.intro.whyUse2')}
+              </p>
+            </Card>
+          </div>
+        </section>
           <WheelCanvas />
         </Card>
       </div>
