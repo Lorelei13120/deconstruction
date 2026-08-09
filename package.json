@@ -19,7 +19,7 @@
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-hook-form": "^7.76.1",
-    "react-router-dom": "^7.15.1",
+    "react-router-dom": "^7.18.2",
     "tailwind-merge": "^2.6.1",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.25.76"
